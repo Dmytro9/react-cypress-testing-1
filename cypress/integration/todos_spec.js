@@ -1,6 +1,6 @@
 describe("todos", () => {
   beforeEach(() => {
-    cy.visit("/");
+    cy.login();
   });
 
   // it("add todo", () => {
